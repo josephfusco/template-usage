@@ -1,0 +1,12 @@
+# Files to exclude when creating archive.
+
+.*                export-ignore
+.*/               export-ignore
+bin/              export-ignore
+composer*         export-ignore
+package*.json     export-ignore
+*.xml             export-ignore
+
+# Files to hide by default for GitHub pull request diffs.
+
+languages/**/*    linguist-generated

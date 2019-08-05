@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "phpcs.trace.server": "messages",
+  "phpcs.showSources": true,
+  "phpcs.enable": true,
+  "phpcs.standard": "./phpcs.xml",
+  "phpcs.executablePath": "./vendor/bin/phpcs",
+  "phpcbf.onsave": true,
+  "phpcbf.enable": true,
+  "phpcbf.standard": "./phpcs.xml",
+  "phpcbf.executablePath": "./vendor/bin/phpcbf"
+}

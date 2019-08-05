@@ -1,0 +1,27 @@
+{
+  "name": "josephfusco/template-usage",
+  "description": "Display info on what page templates are currently being used within a WordPress multisite.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Joseph Fusco",
+      "homepage": "https://github.com/josephfusco/"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "composer/installers": "^1.0"
+  },
+  "require-dev": {
+    "automattic/phpcs-neutron-standard": "dev-master",
+    "squizlabs/php_codesniffer": "dev-master",
+    "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
+    "phpcompatibility/php-compatibility": "dev-master",
+    "wp-coding-standards/wpcs": "dev-master"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpcs",
+    "fix": "./vendor/bin/phpcbf"
+  }
+}

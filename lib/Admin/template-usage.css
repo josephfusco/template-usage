@@ -1,0 +1,21 @@
+#template-usage .page-list {
+  margin-bottom: 1.5em;
+  margin-left: 1.8em;
+  list-style: disc outside;
+}
+
+#template-usage .template-name {
+  font-size: 13px;
+  display: inline-block;
+  margin: 0;
+}
+
+#template-usage .additional-info {
+  color: #666;
+  font-size: 13px;
+  font-style: italic;
+}
+
+#template-usage .template-page {
+  margin: 0;
+}

@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "i18n": "npx node-wp-i18n makepot"
+  }
+}
