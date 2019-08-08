@@ -1,5 +1,7 @@
 # Template Usage
 
+[![Packagist](https://img.shields.io/packagist/v/josephfusco/template-usage.svg?style=flat-square)](https://packagist.org/packages/josephfusco/template-usage)
+
 Display info on what page templates are currently being used within a WordPress multisite.
 
 ## Usage
